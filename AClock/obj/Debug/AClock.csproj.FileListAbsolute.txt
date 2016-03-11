@@ -1,0 +1,9 @@
+c:\users\semion\documents\visual studio 2015\Projects\AClock\AClock\bin\Debug\AClock.exe.config
+c:\users\semion\documents\visual studio 2015\Projects\AClock\AClock\bin\Debug\AClock.exe
+c:\users\semion\documents\visual studio 2015\Projects\AClock\AClock\bin\Debug\AClock.pdb
+c:\users\semion\documents\visual studio 2015\Projects\AClock\AClock\obj\Debug\AClock.csprojResolveAssemblyReference.cache
+c:\users\semion\documents\visual studio 2015\Projects\AClock\AClock\obj\Debug\AClock.Form1.resources
+c:\users\semion\documents\visual studio 2015\Projects\AClock\AClock\obj\Debug\AClock.Properties.Resources.resources
+c:\users\semion\documents\visual studio 2015\Projects\AClock\AClock\obj\Debug\AClock.csproj.GenerateResource.Cache
+c:\users\semion\documents\visual studio 2015\Projects\AClock\AClock\obj\Debug\AClock.exe
+c:\users\semion\documents\visual studio 2015\Projects\AClock\AClock\obj\Debug\AClock.pdb
