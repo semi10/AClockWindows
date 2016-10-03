@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.RxTextBox = new System.Windows.Forms.RichTextBox();
             this.InitButton = new System.Windows.Forms.Button();
             this.SendButton = new System.Windows.Forms.Button();
@@ -43,11 +43,10 @@
             this.PlayPauseButton = new System.Windows.Forms.Button();
             this.MuteButton = new System.Windows.Forms.Button();
             this.ReadButton = new System.Windows.Forms.Button();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
-            // 
-            // serialPort1
-            // 
-            this.serialPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
             // 
             // RxTextBox
             // 
@@ -174,6 +173,19 @@
             this.ReadButton.UseVisualStyleBackColor = true;
             this.ReadButton.Click += new System.EventHandler(this.ReadButton_Click);
             // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "AClock";
+            this.notifyIcon1.Visible = true;
+            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 15000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -196,7 +208,6 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "AClock";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -205,7 +216,6 @@
 
         #endregion
 
-        private System.IO.Ports.SerialPort serialPort1;
         private System.Windows.Forms.RichTextBox RxTextBox;
         private System.Windows.Forms.Button InitButton;
         private System.Windows.Forms.Button SendButton;
@@ -219,6 +229,9 @@
         private System.Windows.Forms.Button PlayPauseButton;
         private System.Windows.Forms.Button MuteButton;
         private System.Windows.Forms.Button ReadButton;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.IO.Ports.SerialPort serialPort1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

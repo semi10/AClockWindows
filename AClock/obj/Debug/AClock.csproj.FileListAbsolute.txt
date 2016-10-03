@@ -7,3 +7,14 @@ c:\users\semion\documents\visual studio 2015\Projects\AClock\AClock\obj\Debug\AC
 c:\users\semion\documents\visual studio 2015\Projects\AClock\AClock\obj\Debug\AClock.csproj.GenerateResource.Cache
 c:\users\semion\documents\visual studio 2015\Projects\AClock\AClock\obj\Debug\AClock.exe
 c:\users\semion\documents\visual studio 2015\Projects\AClock\AClock\obj\Debug\AClock.pdb
+C:\Users\Semion\Documents\Visual Studio 2013\Projects\AClockWindows\AClock\bin\Debug\AClock.exe.config
+C:\Users\Semion\Documents\Visual Studio 2013\Projects\AClockWindows\AClock\bin\Debug\AClock.exe
+C:\Users\Semion\Documents\Visual Studio 2013\Projects\AClockWindows\AClock\bin\Debug\AClock.pdb
+C:\Users\Semion\Documents\Visual Studio 2013\Projects\AClockWindows\AClock\bin\Debug\InTheHand.Net.Personal.dll
+C:\Users\Semion\Documents\Visual Studio 2013\Projects\AClockWindows\AClock\bin\Debug\InTheHand.Net.Personal.xml
+C:\Users\Semion\Documents\Visual Studio 2013\Projects\AClockWindows\AClock\obj\Debug\AClock.Form1.resources
+C:\Users\Semion\Documents\Visual Studio 2013\Projects\AClockWindows\AClock\obj\Debug\AClock.Properties.Resources.resources
+C:\Users\Semion\Documents\Visual Studio 2013\Projects\AClockWindows\AClock\obj\Debug\AClock.csproj.GenerateResource.Cache
+C:\Users\Semion\Documents\Visual Studio 2013\Projects\AClockWindows\AClock\obj\Debug\AClock.exe
+C:\Users\Semion\Documents\Visual Studio 2013\Projects\AClockWindows\AClock\obj\Debug\AClock.pdb
+C:\Users\Semion\Documents\Visual Studio 2013\Projects\AClockWindows\AClock\obj\Debug\AClock.csprojResolveAssemblyReference.cache
